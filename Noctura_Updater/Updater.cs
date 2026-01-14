@@ -12,6 +12,8 @@ namespace Noctura_Updater
     public partial class Updater : Form
     {
         private const string downloadUrl = "https://github.com/newtem/Noctura/releases/latest/download/Noctura.exe";
+        // for custom url
+        // private const string downloadUrl = "https://newtem.me/repo/Noctura.exe";
         private const string tempExe = "NocturaNew.exe";
         private const string targetExe = "Noctura.exe";
 
@@ -107,3 +109,4 @@ namespace Noctura_Updater
         }
     }
 }
+
